@@ -47,3 +47,21 @@ body{
 .book h4{
     color:#6c6a6a
 }
+.btn{
+    border-radius: 1rem;
+    background-color: #413a3a;
+    color:rgb(237, 226, 202);
+    padding: "10px 20px";
+    cursor: "pointer";
+    font-size: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: "all 0.3s ease"
+}
+.btn.hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
